@@ -1,0 +1,346 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3500" measuredH="1394" mockupW="3472" mockupH="1394">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="28" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TextArea" x="85" y="179" w="200" h="96" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>24</size>
+        <text>AMPATH%20%0AQR%20SCANNER</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="70" y="320" w="-1" h="-1" measuredW="99" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Scan%20Sign%20In</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="189" y="320" w="-1" h="-1" measuredW="110" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Scan%20Sign%20Out</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::iPhone" x="369" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::TextArea" x="401" y="175" w="237" h="83" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Scan%20Name%20Tag/Visitor%20Pass</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Button" x="439" y="308" w="149" h="30" measuredW="218" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Scan%20staff%20name%20tag%20QR%20Code</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="439" y="379" w="148" h="30" measuredW="163" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Scan%20Visitor%20QR%20Code</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="699" y="287" w="-1" h="-1" measuredW="49" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Staff%3E%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::iPhone" x="785" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextArea" x="831" y="148" w="223" h="371" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="897" y="534" w="-1" h="-1" measuredW="71" measuredH="22" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Scanning....</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::iPhone" x="785" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextArea" x="831" y="148" w="223" h="371" measuredW="200" measuredH="140" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="897" y="534" w="-1" h="-1" measuredW="71" measuredH="22" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Scanning....</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::iPhone" x="1838" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="1898" y="424" w="208" h="47" measuredW="189" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>send%20to%20server%20%26%20compare</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::iPhone" x="1117" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Button" x="1153" y="353" w="246" h="45" measuredW="243" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>12</size>
+        <text>Scan%20name%2Cserial%20no%20%26%20autogenerated%20no</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::iPhone" x="1465" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::TextArea" x="1511" y="148" w="223" h="371" measuredW="200" measuredH="140" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="1561" y="534" w="-1" h="-1" measuredW="71" measuredH="22" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Scanning....</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::StickyNote" x="2181" y="76" w="279" h="211" measuredW="109" measuredH="123" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>If%20the%20data%20is%20compared%20successfuly%20it%20displays%20a%20match%20%20if%20not%20it%20will%20display%20an%20error%20message%20of%20a%20mismatch.%0A%20%0A%20%0A%20if%20theres%20%20mo%20connection%20between%20the%20phone%20and%20the%20sever%2C%20the%20data%20will%20be%20compaired%20to%20the%20already%20stored%20data%20on%20the%20device%20memory.</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::iPhone" x="2479" y="0" w="318" h="682" measuredW="282" measuredH="573" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Alert" x="2532" y="364" w="-1" h="-1" measuredW="200" measuredH="117" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Alert%0AThe%20data%20succefully%20matched%20%0AOK</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="2532" y="194" w="231" h="-1" measuredW="85" measuredH="24" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>PF%20no%204090</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Label" x="2532" y="260" w="-1" h="-1" measuredW="212" measuredH="24" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>u8mhfjhfujufsufisjfujuij9rfvjih</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="2532" y="227" w="-1" h="-1" measuredW="95" measuredH="24" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Ampath2453</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::iPhone" x="2833" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Alert" x="2874" y="391" w="-1" h="-1" measuredW="200" measuredH="62" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Alert%0AData%20did%20NOT%20match%21%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::StickyNote" x="2239" y="794" w="221" h="112" measuredW="109" measuredH="123" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Comparing%20data%20to%20that%20stored%20in%20the%20device%20memory</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::iPhone" x="2491" y="712" w="318" h="682" measuredW="282" measuredH="573" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Alert" x="2560" y="1064" w="196" h="144" measuredW="200" measuredH="117" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20Comparing%20data%20to%20%0Athat%20of%20%20phone%20memory%0Acancel</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::iPhone" x="2845" y="712" w="318" h="682" measuredW="282" measuredH="573" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Alert" x="2907" y="1065" w="-1" h="-1" measuredW="200" measuredH="117" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Alert%0AThe%20data%20succefully%20matched%20%0AOK</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::iPhone" x="3185" y="682" w="315" h="702" measuredW="282" measuredH="573" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Alert" x="3242" y="1092" w="-1" h="-1" measuredW="200" measuredH="62" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Alert%0AData%20did%20NOT%20match%21%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::Label" x="2532" y="164" w="231" h="-1" measuredW="140" measuredH="24" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>BLESSED%20BARAKA</text>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::Label" x="2868" y="194" w="231" h="-1" measuredW="85" measuredH="24" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>PF%20no%204090</text>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Label" x="2868" y="248" w="-1" h="-1" measuredW="212" measuredH="24" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>u8mhfjhfujufsufisjfujuij9rfvjih</text>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::Label" x="2868" y="215" w="-1" h="-1" measuredW="95" measuredH="24" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Ampath2453</text>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Label" x="2868" y="164" w="231" h="-1" measuredW="140" measuredH="24" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>BLESSED%20BARAKA</text>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="1880" y="209" w="231" h="-1" measuredW="85" measuredH="24" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>PF%20no%204090</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Label" x="1880" y="275" w="-1" h="-1" measuredW="212" measuredH="24" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>u8mhfjhfujufsufisjfujuij9rfvjih</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Label" x="1880" y="242" w="-1" h="-1" measuredW="95" measuredH="24" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Ampath2453</text>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Label" x="1880" y="179" w="231" h="-1" measuredW="140" measuredH="24" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>BLESSED%20BARAKA</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Label" x="1159" y="203" w="231" h="-1" measuredW="85" measuredH="24" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>PF%20no%204090</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Label" x="1159" y="236" w="-1" h="-1" measuredW="95" measuredH="24" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Ampath2453</text>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Label" x="1159" y="173" w="231" h="-1" measuredW="140" measuredH="24" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>BLESSED%20BARAKA</text>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Label" x="3233" y="892" w="231" h="-1" measuredW="85" measuredH="24" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>PF%20no%204090</text>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Label" x="3233" y="958" w="-1" h="-1" measuredW="212" measuredH="24" zOrder="50" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>u8mhfjhfujufsufisjfujuij9rfvjih</text>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Label" x="3233" y="925" w="-1" h="-1" measuredW="95" measuredH="24" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Ampath2453</text>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Label" x="3233" y="862" w="231" h="-1" measuredW="140" measuredH="24" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>BLESSED%20BARAKA</text>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::Label" x="2892" y="904" w="231" h="-1" measuredW="85" measuredH="24" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>PF%20no%204090</text>
+      </controlProperties>
+    </control>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::Label" x="2892" y="970" w="-1" h="-1" measuredW="212" measuredH="24" zOrder="54" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>u8mhfjhfujufsufisjfujuij9rfvjih</text>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::Label" x="2892" y="937" w="-1" h="-1" measuredW="95" measuredH="24" zOrder="55" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Ampath2453</text>
+      </controlProperties>
+    </control>
+    <control controlID="87" controlTypeID="com.balsamiq.mockups::Label" x="2892" y="874" w="231" h="-1" measuredW="140" measuredH="24" zOrder="56" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>BLESSED%20BARAKA</text>
+      </controlProperties>
+    </control>
+    <control controlID="88" controlTypeID="com.balsamiq.mockups::Label" x="2543" y="907" w="231" h="-1" measuredW="85" measuredH="24" zOrder="57" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>PF%20no%204090</text>
+      </controlProperties>
+    </control>
+    <control controlID="89" controlTypeID="com.balsamiq.mockups::Label" x="2543" y="973" w="-1" h="-1" measuredW="212" measuredH="24" zOrder="58" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>u8mhfjhfujufsufisjfujuij9rfvjih</text>
+      </controlProperties>
+    </control>
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::Label" x="2543" y="940" w="-1" h="-1" measuredW="95" measuredH="24" zOrder="59" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Ampath2453</text>
+      </controlProperties>
+    </control>
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::Label" x="2543" y="877" w="231" h="-1" measuredW="140" measuredH="24" zOrder="60" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>BLESSED%20BARAKA</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

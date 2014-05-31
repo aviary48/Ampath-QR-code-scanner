@@ -1,0 +1,231 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3462" measuredH="1629" mockupW="3434" mockupH="1629">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::StickyNote" x="180" y="736" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>when%20a%20staff%20comes%20in</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::iPhone" x="813" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="859" y="156" w="223" h="371" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="916" y="534" w="-1" h="-1" measuredW="71" measuredH="22" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Scanning....</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::iPhone" x="28" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextArea" x="85" y="179" w="200" h="96" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>24</size>
+        <text>AMPATH%20%0AQR%20SCANNER</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="70" y="320" w="-1" h="-1" measuredW="99" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Scan%20Sign%20In</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="189" y="320" w="-1" h="-1" measuredW="110" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Scan%20Sign%20Out</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::iPhone" x="369" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextArea" x="408" y="179" w="237" h="83" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Scan%20Name%20Tag/Visitor%20Pass</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="439" y="308" w="149" h="30" measuredW="153" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Scan%20staff%20QR%20Code</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="439" y="379" w="148" h="30" measuredW="163" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Scan%20Visitor%20QR%20Code</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Button" x="728" y="275" w="-1" h="-1" measuredW="71" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Staff%3E%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::iPhone" x="1196" y="0" w="320" h="702" measuredW="282" measuredH="573" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="1263" y="409" w="186" h="33" measuredW="172" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Scan%20Computer%20QR%20code</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::iPhone" x="1575" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::TextArea" x="1621" y="156" w="223" h="371" measuredW="200" measuredH="140" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="1688" y="540" w="-1" h="-1" measuredW="71" measuredH="22" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Scanning....</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::iPhone" x="1971" y="13" w="315" h="702" measuredW="282" measuredH="573" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::TextArea" x="1238" y="159" w="237" h="116" measuredW="200" measuredH="140" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Eugene%20%20Kamadi%0APf%20No%3A%200477%0Aampath0045</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::TextArea" x="2010" y="284" w="237" h="114" measuredW="200" measuredH="140" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Eugene%20Kamadi%0ASerial%20No%3A%205cb05422%0Ahp530%0Aampath0045</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::TextArea" x="2010" y="162" w="237" h="116" measuredW="200" measuredH="140" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Eugene%20%20Kamadi%0APf%20No%3A%200477%0Aampath0045</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Button" x="2062" y="446" w="133" h="24" measuredW="111" measuredH="27" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Send%20to%20server</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::StickyNote" x="2010" y="485" w="223" h="104" measuredW="109" measuredH="123" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027263</color>
+        <text>If%20data%20has%20been%20submitted%20succesfullu%2C%20the%20user%20shouldbe%20taken%20back%20to%20Screen1.%0A%20%0Aif%20the%20data%20has%20NOT%20been%20successfully%20submitted%2C%20ask%20the%20user%20to%20resend%0A%20%0AThe%20data%20being%20sent%20is%20stored%20in%20the%20sever%20and%20on%20the%20phone.</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::iPhone" x="2349" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Button" x="2432" y="352" w="133" h="24" measuredW="111" measuredH="27" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Send%20to%20server</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Alert" x="2405" y="400" w="-1" h="-1" measuredW="200" measuredH="117" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Alert%0ASending%20tp%20Server.....%0ACancel</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::TextArea" x="2405" y="157" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Eugene%20Kamadi%0Apf%20No%3A0477%0Aampath0045%0Ahp630%0A5cb05422</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::TextInput" x="2678" y="347" w="-1" h="-1" measuredW="189" measuredH="27" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>sent%20to%20sever%20successfully%3E%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::iPhone" x="2882" y="0" w="315" h="702" measuredW="282" measuredH="573" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Button" x="2973" y="352" w="133" h="24" measuredW="111" measuredH="27" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Send%20to%20server</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Label" x="2964" y="535" w="168" h="-1" measuredW="130" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <text>Data%20sent%20succesfully.</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::StickyNote" x="3243" y="146" w="135" h="79" measuredW="109" measuredH="123" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6770343</color>
+        <text>GO%20BACK%20TO%20SCREEN%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::iPhone" x="2401" y="834" w="315" h="702" measuredW="282" measuredH="573" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::TextArea" x="2939" y="168" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Eugene%20Kamadi%0Apf%20No%3A0477%0Aampath0045%0Ahp630%0A5cb05422</text>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Button" x="2474" y="1244" w="157" h="25" measuredW="126" measuredH="27" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Resend%20to%20server</text>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::TextArea" x="2458" y="988" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Eugene%20Kamadi%0Apf%20No%3A0477%0Aampath0045%0Ahp630%0A5cb05422</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Label" x="2443" y="1160" w="243" h="-1" measuredW="236" measuredH="21" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <text>sending%20data%20failed.Please%20resend%20again</text>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::iPhone" x="2988" y="817" w="474" h="812" measuredW="282" measuredH="573" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Label" x="2119" y="1152" w="-1" h="-1" measuredW="200" measuredH="21" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Send%20tob%20sever%20not%20successful%3E%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="2749" y="1152" w="-1" h="-1" measuredW="176" measuredH="21" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Resend%20faild%20after%2010%20trials%3E%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::TextArea" x="3121" y="973" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Eugene%20Kamadi%0Apf%20No%3A0477%0Aampath0045%0Ahp630%0A5cb05422</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="3054" y="1246" w="-1" h="-1" measuredW="349" measuredH="22" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>The%20data%20was%20successfuly%20saved%20in%20the%20device%20memory</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
