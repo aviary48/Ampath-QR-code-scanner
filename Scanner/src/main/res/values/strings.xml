@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
 
     <string name="signin">SignIn</string>
+=======
+<string name="signin">SignIn</string>
+>>>>>>> 514ed87566f69085dd8d53e099cea1c1bbe7ba54
     <string name="app_name">BarcodeScannerApp</string>
     <string name="the_log_in_page">The Log in Page</string>
     <string name="action_settings">Settings</string>
@@ -14,6 +18,9 @@
     <string name="title_activity_sign">SignActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="signout">SignOut</string>
+<<<<<<< HEAD
     <string name="title_activity_signin">signinActivity</string>
+=======
+>>>>>>> 514ed87566f69085dd8d53e099cea1c1bbe7ba54
 
 </resources>
