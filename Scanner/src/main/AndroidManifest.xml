@@ -16,6 +16,9 @@
         <activity
             android:name="com.morgan.barcodescannerapp.scanner.ScanActivity"
             android:label="@string/app_name" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.morgan.barcodescannerapp.scanner.LoginActivity"
@@ -29,6 +32,9 @@
         <activity
             android:name="com.morgan.barcodescannerapp.scanner.SignActivity"
             android:label="@string/title_activity_sign" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
     </application>
 

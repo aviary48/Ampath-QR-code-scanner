@@ -13,6 +13,6 @@
     <string name="title_activity_sign">SignActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="signout">SignOut</string>
-
+<string name="logout">logout</string>
     <string name="title_activity_signin">signinActivity</string>
 </resources>

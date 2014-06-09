@@ -1,6 +1,7 @@
 package com.morgan.barcodescannerapp.scanner;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
@@ -27,11 +28,27 @@ public class LoginActivity extends ActionBarActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+               Intent data = new Intent();
+               EditText username_edittext = (EditText) findViewById(R.id.username_edittext);
+                EditText password_textview =(EditText)  findViewById(R.id.password_edittext);
+                data.setData(Uri.parse(username_edittext.getText().toString()));
+
+                setResult(RESULT_OK,data);
+                finish();
+
+
+
                 String username = ((EditText) findViewById(R.id.username_edittext)).getText().toString();
                 String password = ((EditText) findViewById(R.id.password_edittext)).getText().toString() ;
 
                 if(correctUsernameAndPasswordEntered(username, password)) {
-                    startActivity(new Intent("com.morgan.barcodescannerapp.scanner.SignActivity")) ;
+
+                    Intent intent = new Intent(getApplicationContext(),SignActivity.class);
+
+
+
+                    startActivity(intent) ;
+
                 } else {
                     Toast.makeText(getApplicationContext(),
                                 new String("Incorrect username or password"),

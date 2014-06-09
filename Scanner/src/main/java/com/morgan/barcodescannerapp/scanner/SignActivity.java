@@ -2,6 +2,7 @@ package com.morgan.barcodescannerapp.scanner;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 
 /**
  * Created by Eugene Kamadi on 6/6/2014.
@@ -16,6 +17,7 @@ public class SignActivity extends ActionBarActivity {
 
     }
 
-
-
 }
+
+
+
