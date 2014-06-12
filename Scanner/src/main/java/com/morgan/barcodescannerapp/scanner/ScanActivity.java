@@ -2,25 +2,18 @@ package com.morgan.barcodescannerapp.scanner;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
-import com.morgan.barcodescannerapp.scanner.R;
 
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.os.Build;
 
 import android.widget.Toast;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import android.content.Intent;
-import android.app.Activity;
 
 public class ScanActivity extends ActionBarActivity implements OnClickListener{
 
@@ -31,6 +24,7 @@ public class ScanActivity extends ActionBarActivity implements OnClickListener{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scan );
+
 
         scanBtn = (Button)findViewById(R.id.scan_button);
         formatTxt = (TextView)findViewById(R.id.scan_format);
@@ -51,7 +45,7 @@ public class ScanActivity extends ActionBarActivity implements OnClickListener{
 
         IntentResult scanningResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
         if (scanningResult != null) {
-            //we have a result
+            //we have a result and store it to a variable
             String scanContent = scanningResult.getContents();
             String scanFormat = scanningResult.getFormatName();
             formatTxt.setText("FORMAT: " + scanFormat);
@@ -86,5 +80,6 @@ public class ScanActivity extends ActionBarActivity implements OnClickListener{
 
 
 
-
 }
+
+

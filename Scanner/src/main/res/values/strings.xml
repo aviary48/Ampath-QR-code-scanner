@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="signin">SignIn</string>
     <string name="app_name">BarcodeScannerApp</string>
     <string name="the_log_in_page">The Log in Page</string>
@@ -13,6 +14,22 @@
     <string name="title_activity_sign">SignActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="signout">SignOut</string>
-<string name="logout">logout</string>
+    <string name="logout">logout</string>
     <string name="title_activity_signin">signinActivity</string>
+    <string name="title_activity_entry">entryActivity</string>
+    <string name="entry">entry</string>
+    <string name="Scan_staff_qr">scan staff qr</string>
+    <string name="scan_visitor_qr">scan visitor qr</string>
+    <string name="title_activity_staffqr">staffqrActivity</string>
+    <string name="tag_qr_details"> tag qr details</string>
+    <string name="scan_comp_qr">scan comp qr</string>
+    <string name="title_activity_compqr">compqrActivity</string>
+    <string name="serial_number">serial number</string>
+    <string name="comp_qr">comp qr</string>
+    <string name="send_to_server">send to server</string>
+    <string name="send_to_server_and_compare">send to server and compare</string>
+    <string name="title_activity_staffvalidation">staffvalidationActivity</string>
+    <string name="sent_to_sever_n_compare">send to server n compare</string>
+    <string name="title_activity_exit">ExitActivity</string>
+<string name="Exit">Exit</string>
 </resources>

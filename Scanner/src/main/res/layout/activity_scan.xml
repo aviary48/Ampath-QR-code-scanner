@@ -23,5 +23,8 @@
         android:textIsSelectable="true"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/scan_format" />
+
+
+
 </RelativeLayout>
 

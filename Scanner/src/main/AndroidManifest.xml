@@ -36,6 +36,30 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.morgan.barcodescannerapp.scanner.entryActivity"
+            android:label="@string/title_activity_entry" >
+        </activity>
+        <activity
+            android:name="com.morgan.barcodescannerapp.scanner.tagqrActivity"
+            android:label="@string/title_activity_staffqr" >
+        </activity>
+        <activity
+            android:name="com.morgan.barcodescannerapp.scanner.compqrActivity"
+            android:label="@string/title_activity_compqr" >
+        </activity>
+        <activity
+            android:name="com.morgan.barcodescannerapp.scanner.visitorvalidation"
+            android:label="visitorvalidation" >
+        </activity>
+        <activity
+            android:name="com.morgan.barcodescannerapp.scanner.staffvalidationActivity"
+            android:label="@string/title_activity_staffvalidation" >
+        </activity>
+        <activity
+            android:name="com.morgan.barcodescannerapp.scanner.ExitActivity"
+            android:label="@string/title_activity_exit" >
+        </activity>
     </application>
 
 </manifest>

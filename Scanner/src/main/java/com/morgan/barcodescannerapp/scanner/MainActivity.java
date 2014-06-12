@@ -2,25 +2,18 @@ package com.morgan.barcodescannerapp.scanner;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
-import com.morgan.barcodescannerapp.scanner.R;
 
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.os.Build;
 
 import android.widget.Toast;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import android.content.Intent;
-import android.app.Activity;
 
 public class MainActivity extends ActionBarActivity implements OnClickListener{
 
