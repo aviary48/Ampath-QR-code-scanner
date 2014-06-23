@@ -2,6 +2,7 @@ package com.morgan.barcodescannerapp.scanner;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
@@ -14,6 +15,9 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.widget.Button;
 import android.widget.TextView;
+
+import java.net.Authenticator;
+import java.net.PasswordAuthentication;
 
 /**
  * Created by Eugene Kamadi on 6/6/2014.
@@ -38,16 +42,25 @@ public class LoginActivity extends ActionBarActivity {
 
 
 
-                String username = ((EditText) findViewById(R.id.username_edittext)).getText().toString();
-                String password = ((EditText) findViewById(R.id.password_edittext)).getText().toString() ;
+                final String username = ((EditText) findViewById(R.id.username_edittext)).getText().toString();
+                final String password = ((EditText) findViewById(R.id.password_edittext)).getText().toString() ;
 
+                Authenticator.setDefault(new Authenticator() {
+                    @Override
+                    protected PasswordAuthentication getPasswordAuthentication() {
+                        PasswordAuthentication pa= new PasswordAuthentication(username,password.toCharArray());
+                    System.out.println(pa.getUserName()+ ":"+ new String(pa.getPassword()));
+                    return pa;
+                    }
+                });
                 if(correctUsernameAndPasswordEntered(username, password)) {
 
+                    //calling another activity
+
                     Intent intent = new Intent(getApplicationContext(),SignActivity.class);
-
-
-
                     startActivity(intent) ;
+
+
 
                 } else {
                     Toast.makeText(getApplicationContext(),
@@ -62,4 +75,12 @@ public class LoginActivity extends ActionBarActivity {
     private boolean correctUsernameAndPasswordEntered(String username, String  password) {
         return true ;
     }
+
+    // thi is a trial
+
+
+
+
+
+
 }

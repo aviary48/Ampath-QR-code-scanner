@@ -26,5 +26,31 @@
 
 
 
+
+
+    <Button
+        android:id="@+id/scan_comp_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scann comp qr"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/scan_content"
+        android:layout_centerHorizontal="true" />
+
+<TextView
+    android:id="@+id/scan_format2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textIsSelectable="true"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/scan_comp_qr"/>
+<TextView
+    android:id="@+id/scan_content2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textIsSelectable="true"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/scan_format2"/>
+
 </RelativeLayout>
 

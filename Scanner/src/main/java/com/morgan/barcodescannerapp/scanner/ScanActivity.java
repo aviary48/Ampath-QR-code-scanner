@@ -18,25 +18,38 @@ import android.content.Intent;
 public class ScanActivity extends ActionBarActivity implements OnClickListener{
 
     private Button scanBtn;
-    private TextView formatTxt, contentTxt;
+    private TextView formatTxt, contentTxt , secondScanFormat, secondScanContent ;
+    private Button scanCompBtn;
+    private IntentIntegrator scanIntegrator ;
+    private boolean isFirstScanButtonSelected = false  ;
+    private boolean isSecondScanButtonSelected = false  ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scan );
 
-
+        scanIntegrator = new IntentIntegrator(this);
         scanBtn = (Button)findViewById(R.id.scan_button);
         formatTxt = (TextView)findViewById(R.id.scan_format);
         contentTxt = (TextView)findViewById(R.id.scan_content);
-
         scanBtn.setOnClickListener(this);
+
+        scanCompBtn= (Button)findViewById(R.id.scan_comp_qr);
+        secondScanFormat = (TextView)findViewById(R.id.scan_format2);
+        secondScanContent = (TextView)findViewById(R.id.scan_content2);
+        scanCompBtn.setOnClickListener(this);
     }
     public void onClick(View v){
         //respond to clicks
-        if(v.getId()==R.id.scan_button){
+       if(v.getId()==R.id.scan_button){
             //scan
-            IntentIntegrator scanIntegrator = new IntentIntegrator(this);
+            isFirstScanButtonSelected = true  ;
+            scanIntegrator.initiateScan();
+        }
+        if(v.getId()==R.id.scan_comp_qr){
+            //scan
+            isSecondScanButtonSelected = true ;
             scanIntegrator.initiateScan();
         }
     }
@@ -48,14 +61,36 @@ public class ScanActivity extends ActionBarActivity implements OnClickListener{
             //we have a result and store it to a variable
             String scanContent = scanningResult.getContents();
             String scanFormat = scanningResult.getFormatName();
-            formatTxt.setText("FORMAT: " + scanFormat);
-            contentTxt.setText("CONTENT: " + scanContent);
+
+            if (isFirstScanButtonSelected) {
+                formatTxt.setText("FORMAT: " + scanFormat);
+                contentTxt.setText("CONTENT: " + scanContent);
+                isFirstScanButtonSelected = false ;
+            } else if (isSecondScanButtonSelected) {
+                secondScanFormat.setText("FORMAT: " + scanFormat);
+                secondScanContent.setText("CONTENT: " + scanContent);
+                isSecondScanButtonSelected = false ;
+            }
         }
+
+
+
         else{
+
+
             Toast toast = Toast.makeText(getApplicationContext(),
                     "No scan data received!", Toast.LENGTH_SHORT);
             toast.show();
         }
+
+        //this is a test for the scann button
+
+
+
+
+
+ // end of test
+
 
     }
     @Override
@@ -77,6 +112,7 @@ public class ScanActivity extends ActionBarActivity implements OnClickListener{
         }
         return super.onOptionsItemSelected(item);
     }
+//test 2
 
 
 

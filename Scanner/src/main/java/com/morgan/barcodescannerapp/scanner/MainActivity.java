@@ -77,6 +77,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener{
         return super.onOptionsItemSelected(item);
     }
 
+//ths code id is in my activity
 
 
 
