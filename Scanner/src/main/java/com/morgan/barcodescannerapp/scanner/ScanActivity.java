@@ -3,6 +3,7 @@ package com.morgan.barcodescannerapp.scanner;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
+import android.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -39,7 +40,12 @@ public class ScanActivity extends ActionBarActivity implements OnClickListener{
         secondScanFormat = (TextView)findViewById(R.id.scan_format2);
         secondScanContent = (TextView)findViewById(R.id.scan_content2);
         scanCompBtn.setOnClickListener(this);
-    }
+        // back on the acion bar
+
+        ActionBar actionBar= getActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
+   }
     public void onClick(View v){
         //respond to clicks
        if(v.getId()==R.id.scan_button){
@@ -63,8 +69,10 @@ public class ScanActivity extends ActionBarActivity implements OnClickListener{
             String scanFormat = scanningResult.getFormatName();
 
             if (isFirstScanButtonSelected) {
+
                 formatTxt.setText("FORMAT: " + scanFormat);
                 contentTxt.setText("CONTENT: " + scanContent);
+
                 isFirstScanButtonSelected = false ;
             } else if (isSecondScanButtonSelected) {
                 secondScanFormat.setText("FORMAT: " + scanFormat);
@@ -106,10 +114,17 @@ public class ScanActivity extends ActionBarActivity implements OnClickListener{
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
+       //implementing the up button on the action bar
+
+        switch(item.getItemId()){
+            case android.R.id.home:
+                this.finish();
+               return true;
+        }
         int id = item.getItemId();
         if (id == R.id.action_settings) {
             return true;
-        }
+                   }
         return super.onOptionsItemSelected(item);
     }
 //test 2

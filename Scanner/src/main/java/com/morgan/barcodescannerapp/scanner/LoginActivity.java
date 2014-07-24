@@ -16,6 +16,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.morgan.barcodescannerapp.scanner.service.authentication.AuthenticationService;
+
 import java.net.Authenticator;
 import java.net.PasswordAuthentication;
 
@@ -23,6 +25,12 @@ import java.net.PasswordAuthentication;
  * Created by Eugene Kamadi on 6/6/2014.
  */
 public class LoginActivity extends ActionBarActivity {
+
+    private AuthenticationService authenticationService ;
+
+    public LoginActivity() {
+        authenticationService = new AuthenticationService();
+    }
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,29 +53,26 @@ public class LoginActivity extends ActionBarActivity {
                 final String username = ((EditText) findViewById(R.id.username_edittext)).getText().toString();
                 final String password = ((EditText) findViewById(R.id.password_edittext)).getText().toString() ;
 
+                if(authenticationService.authenticate(username, password)) {
+                    Intent intent = new Intent(getApplicationContext(),SignActivity.class);
+                    startActivity(intent) ;
+                } else {
+                    Toast.makeText(getApplicationContext(),
+                            new String("Incorrect username or password"),
+                            Toast.LENGTH_LONG)
+                            .show();
+                }
+
+                /*
                 Authenticator.setDefault(new Authenticator() {
                     @Override
                     protected PasswordAuthentication getPasswordAuthentication() {
                         PasswordAuthentication pa= new PasswordAuthentication(username,password.toCharArray());
-                    System.out.println(pa.getUserName()+ ":"+ new String(pa.getPassword()));
+                        System.out.println(pa.getUserName()+ ":" + new String(pa.getPassword()));
                     return pa;
                     }
                 });
-                if(correctUsernameAndPasswordEntered(username, password)) {
-
-                    //calling another activity
-
-                    Intent intent = new Intent(getApplicationContext(),SignActivity.class);
-                    startActivity(intent) ;
-
-
-
-                } else {
-                    Toast.makeText(getApplicationContext(),
-                                new String("Incorrect username or password"),
-                                Toast.LENGTH_LONG)
-                            .show();
-                }
+                */
             }
         });
     }

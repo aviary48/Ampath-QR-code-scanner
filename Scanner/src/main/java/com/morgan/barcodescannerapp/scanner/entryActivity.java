@@ -7,6 +7,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+// action bar imports
+import android.app.ActionBar;
+import android.view.MenuItem;
 
 
 public class entryActivity extends ActionBarActivity {
@@ -15,6 +18,9 @@ public class entryActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entry);
+        // making the back button on the action bar viscible
+        ActionBar ab = getActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
 
 
         Button EntryButton= (Button ) findViewById(R.id.Scan_staff_qr);
@@ -30,6 +36,7 @@ public class entryActivity extends ActionBarActivity {
 
         });
     }
+
 
 
 
@@ -50,7 +57,16 @@ public class entryActivity extends ActionBarActivity {
         if (id == R.id.action_settings) {
             return true;
         }
+        switch(item.getItemId()){
+            case android.R.id.home:
+                this.finish();
+                //app icon in action bar clicked; go home
+                return true;
+            default:
+
+        }
         return super.onOptionsItemSelected(item);
+
     }
 
 }
